@@ -22,13 +22,13 @@ public class ImageGalleryApp extends Application {
 
         Image[] thumbnails = {
                 new Image(getClass().getResourceAsStream("/car1.jpg"), 100, 0, true, true),
-                new Image(getClass().getResourceAsStream("/messi.jpg"), 100, 0, true, true),
+                new Image(getClass().getResourceAsStream("/car.jpg"), 100, 0, true, true),
                 new Image(getClass().getResourceAsStream("/mort.jpg"), 100, 0, true, true)
         };
 
         Image[] fullSizeImages = {
                 new Image(getClass().getResourceAsStream("/car1.jpg")),
-                new Image(getClass().getResourceAsStream("/messi.jpg")),
+                new Image(getClass().getResourceAsStream("/car.jpg")),
                 new Image(getClass().getResourceAsStream("/mort.jpg"))
         };
 
